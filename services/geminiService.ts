@@ -21,7 +21,11 @@ export class PortfolioAI {
   private chat: Chat;
 
   constructor() {
-    this.ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    if (!apiKey) {
+      throw new Error('VITE_GEMINI_API_KEY is not set in environment variables');
+    }
+    this.ai = new GoogleGenAI({ apiKey });
     this.chat = this.ai.chats.create({
       model: 'gemini-3-flash-preview',
       config: {
