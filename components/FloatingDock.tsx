@@ -9,7 +9,7 @@ const menuItems = [
   { id: 'contact', title: 'Contact', icon: 'C' },
 ];
 
-const PROFILE_IMAGE = "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop";
+const PROFILE_IMAGE = "/assets/sandhani_shaik.png";
 
 const FloatingDock: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
