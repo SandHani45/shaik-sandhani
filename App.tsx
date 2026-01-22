@@ -23,7 +23,7 @@ const App: React.FC = () => {
     title: 'Sandhani Sheikh | Technical Lead & Full Stack Developer | Dubai UAE',
     description: 'Technical Lead at Emirates NBD with 10+ years experience in full-stack development, AI/ML integration, and enterprise systems. Specializing in NestJS, React, AWS, and banking solutions. Available for freelance partnerships Q3 2026.',
     keywords: 'Sandhani Sheikh, Technical Lead, Full Stack Developer, Dubai, UAE, NestJS, React, TypeScript, AI/ML, Banking Software, Emirates NBD, Freelance Developer, Web3, Enterprise Architecture, Cloud Solutions, AWS, Azure',
-    image: 'https://sandhani-sheikh.dev/assets/sandhani_shaik.png',
+    image: 'https://sandhani-sheikh.dev/sandhani_shaik.png',
     url: 'https://sandhani-sheikh.dev/'
   });
   

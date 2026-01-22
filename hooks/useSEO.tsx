@@ -13,7 +13,7 @@ export const useSEO = ({
   title = 'Sandhani Sheikh | Technical Lead & Full Stack Developer | Dubai UAE',
   description = 'Technical Lead at Emirates NBD with 10+ years experience in full-stack development, AI/ML integration, and enterprise systems. Specializing in NestJS, React, AWS, and banking solutions.',
   keywords = 'Sandhani Sheikh, Technical Lead, Full Stack Developer, Dubai, UAE, NestJS, React, TypeScript',
-  image = 'https://sandhani-sheikh.dev/assets/sandhani_shaik.png',
+  image = 'https://sandhani-sheikh.dev/sandhani_shaik.png',
   url = 'https://sandhani-sheikh.dev/',
   type = 'website'
 }: SEOProps = {}) => {
