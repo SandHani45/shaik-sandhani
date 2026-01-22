@@ -46,7 +46,7 @@ const SandhaniSection: React.FC = () => {
           <div className="relative aspect-[3/4] md:aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10">
             <motion.img 
               style={{ y: springImageY, scale: imageScale }}
-              src="/assets/sandhani_shaik.png" 
+              src="/sandhani_shaik.png" 
               alt="Sandhani Sheikh Portrait" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
