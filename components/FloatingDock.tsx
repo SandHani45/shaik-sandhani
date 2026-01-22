@@ -9,6 +9,8 @@ const menuItems = [
   { id: 'contact', title: 'Contact', icon: 'C' },
 ];
 
+const PROFILE_IMAGE = "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop";
+
 const FloatingDock: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -54,9 +56,9 @@ const FloatingDock: React.FC = () => {
             >
               <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-zinc-900 flex-shrink-0 flex items-center justify-center overflow-hidden border border-zinc-800">
                 <img 
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sandhani" 
-                  alt="Avatar" 
-                  className="w-10 h-10 md:w-12 md:h-12"
+                  src={PROFILE_IMAGE} 
+                  alt="Sandhani Sheikh" 
+                  className="w-full h-full object-cover"
                 />
               </div>
               
@@ -98,9 +100,9 @@ const FloatingDock: React.FC = () => {
                     className="w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center overflow-hidden shadow-2xl p-1"
                   >
                     <img 
-                      src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sandhani" 
-                      alt="Avatar Large" 
-                      className="w-full h-full"
+                      src={PROFILE_IMAGE} 
+                      alt="Sandhani Sheikh" 
+                      className="w-full h-full object-cover rounded-xl"
                     />
                   </motion.div>
                   <div className="flex flex-col">
